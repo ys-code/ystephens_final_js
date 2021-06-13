@@ -1,0 +1,108 @@
+body{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    /*color:#d69e00;*/
+    color:black;
+    
+}
+main{
+    width: 960px;
+    margin: 16px auto 0 auto;
+    
+}
+header{
+   background-image:url("../img/background.jpg");
+   height: 150px;
+}
+.logo{
+    display: block;
+    margin:1% 1% 3% 1%;
+    width: 100px;
+}
+#address_type_other,#label_address_type_other,#address_type_other1,#label_address_type_other1{display: none;}
+
+[class*="col"]{
+    background-color:#Ede2dc;/*#262625;/*#dc810f;/*#Ede2dc;*/
+}
+
+
+
+#city{margin-top: 0px!important;}
+.py-0{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    
+}
+form{padding-top:24px;padding-bottom: 16px;}
+.row{
+    margin-top: 0 !important;
+    margin-bottom: 0!important;
+
+}
+#credit_numberP, #cvc_P{
+    color: crimson;
+}
+#showprice{
+    font-size: large;
+    margin: 8px auto 0 auto;
+}
+
+.tab2{
+    display: none;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+  }
+
+footer{
+    display:flexbox;
+    text-align: center;
+    height: 100px;
+    background-image: url('../img/footer.png');
+}
+.footer_img{
+    width: 20%;
+    float:right;
+}
+.footer_text{
+    color:#Ede2dc;
+    margin: 0 auto 20px auto;
+    padding-top:40px;
+    font-weight: bold;
+    font-size: larger;
+
+}
+/*----------------------------------------------------*/
+.tab {
+    display: none;
+  }
+h5{
+    text-align: center;
+    background-color: #777e1d;
+}
+
+
+.totalprice{
+    
+    width: 18%;
+    height: 150px;
+    position: fixed;
+    background-color:#c25b4b;/*#e4aa69;*/
+    margin-top:24px ;
+    
+}
+@media only screen and (max-width: 768px){
+    .totalprice{
+        /*background-color: cyan;*/
+        width: 30%;
+        height: 10%;
+        bottom:100px;
+        right:0px;
+        float:right;
+
+    }
+    .footer_text{
+        font-size: smaller;
+    }
+}
